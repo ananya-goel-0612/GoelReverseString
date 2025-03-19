@@ -3,8 +3,8 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class Reverse {
-    private String myString;
-    private Stack<Character> stack;
+    private final String myString;
+    private final Stack<Character> stack;
 
     public Reverse(String string) {
         this.myString = string;
@@ -25,8 +25,6 @@ public class Reverse {
         return reversed;
 
     }
-
-
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
